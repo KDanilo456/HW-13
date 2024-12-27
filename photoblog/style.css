@@ -6,14 +6,11 @@
     --backround-color: #2F303A;
     --white: #FFFFFF;
     --blue:  #2196F3;
-
-
+    --light: #F5F4FA;
+    
 }
 .navigation{
     color: var(--black);
-}
-.navigation-list :hover{
-    color: var(--blue);
 }
 a[href="/Конткати"]{
     color: var(--black);
@@ -48,7 +45,7 @@ a[href="info@devstudio.com"]{
     color: var(--white);
 }
 .gmail[href="info@devstudio.com"]{
-    color: var(--blue);
+    color: var(--gray);
 }
 
 body{
@@ -139,13 +136,11 @@ div{
     
 }
 .navigation{
-    padding-right: 50px;
-    
+    padding-right: 50px;   
 }
 #gmail{
     padding-left: 250px;
     padding-right: 50px;
-    
 }
 .nav-site{
     text-align: center;
@@ -156,11 +151,11 @@ div{
 .block{
     padding-right: 160;
 }
-.nav-title{
+#nav-title{
     font-size: 14px;
     padding-right: 150px;
 }
-.features li p{
+#nav-text{
     font-size: 14px;
     padding-right: 50px;
 }
@@ -186,23 +181,83 @@ div{
     padding-right: 30px;
 }
 .people ul li h2{
-    padding-right: 180px ;
+    padding-right: 160px;
     font-size: 16px;
+    padding-bottom: 14px;
 }
 .people ul li p{
     padding-right: 150px;
     font-size: 16px;
+    padding-bottom: 125px;
 
 }
 .nav-buttons{
    display: flex;
 }
-.nav-buttons li img{
-    padding-right: 30px;
+.navigation-list{
+    padding-top: 30px;
+    text-decoration: none;
 }
-.nav-buttons li{
-    text-align: center;
+.title{
+       font-weight: 900;
 }
-.nav{
-    padding-left: 310px;
+.nav-title{
+    font-size: 14px;
+}
+.features li p{
+    font-size: 14px;
+    }
+    .features{
+        align-items: baseline;
+    }
+    .navigation-list li a{
+        align-items: center;
+    }
+    .navigation-list li img{
+        align-items: center;
+    }
+    .navigation-list :hover{
+        color: var(--blue);
+    }
+  .nav-buttons li{
+     padding-right: 10px;
+  }
+  .nav-buttons{
+ justify-content: center;
+ }
+ .nav-buttons li button{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px ;
+    background-color: var(--light) ;
+    color: var(--black);
+    border: none;
+    border-radius: 4px;
+ }
+ .nav-all-pictures{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: var(--black);
+    background-color: var(--light);
+    border: none;
+    border-radius: 4px;
+    
+ }
+ .nav-buttons :hover{
+    background-color: var(--blue);
+    color: var(--white) ;
+    border-radius: 4px;
+ }
+
+.nav-footer{
+    padding-left: 215px;
+}
+.people{
+    background-color: var(--light);
+}
+.employees{
+    justify-content: center;
 }
